@@ -1,4 +1,4 @@
-import Chat from "../components/Images/chat-text.svg";
+import Chat from "../../components/Images/chat-text.svg";
 import Image from "next/image";
 
 function Contact() {

@@ -1,11 +1,11 @@
-import styles from "../styles/Home.module.css";
-import Hangman from "../components/Images/HangMan.png";
-import LightsOut from "../components/Images/LightsOut.png";
-import Login from "../components/Images/Login.png";
-import QRCode from "../components/Images/QRCode.png";
-import Translator from "../components/Images/Translator.png";
-import ColourPalette from "../components/Images/colourpalette.png";
-import ProjectCard from "./projectCard";
+import styles from "./Project.module.scss";
+import Hangman from "../../components/Images/HangMan.png";
+import LightsOut from "../../components/Images/LightsOut.png";
+import Login from "../../components/Images/Login.png";
+import QRCode from "../../components/Images/QRCode.png";
+import Translator from "../../components/Images/Translator.png";
+import ColourPalette from "../../components/Images/colourpalette.png";
+import ProjectCard from "../projectCard/ProjectCard";
 
 const newProject = [
   {

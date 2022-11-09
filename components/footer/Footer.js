@@ -1,12 +1,12 @@
-import styles from "../styles/Home.module.css";
-import thumbsup from "../components/Images/hand-thumbs-up.svg";
+import styles from "./Footer.module.scss";
+import thumbsup from "../../components/Images/hand-thumbs-up.svg";
 import Image from "next/image";
-import FacebookIcon from "../components/Images/Icons/facebook.svg";
-import GithubIcon from "../components/Images/Icons/github.svg";
-import Insta from "../components/Images/Icons/instagram.svg";
-import LinkedinIcon from "../components/Images/Icons/linkedin.svg";
-import TwitterIcon from "../components/Images/Icons/twitter.svg";
-import MediumIcon from "../components/Images/Icons/medium.svg";
+import FacebookIcon from "../../components/Images/Icons/facebook.svg";
+import GithubIcon from "../../components/Images/Icons/github.svg";
+import Insta from "../../components/Images/Icons/instagram.svg";
+import LinkedinIcon from "../../components/Images/Icons/linkedin.svg";
+import TwitterIcon from "../../components/Images/Icons/twitter.svg";
+import MediumIcon from "../../components/Images/Icons/medium.svg";
 
 const socialIcon = [
   {

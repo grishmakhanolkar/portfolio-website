@@ -1,6 +1,6 @@
-import styles from "../styles/Home.module.css";
+import styles from "./ProjectCard.module.scss";
 import Image from "next/image";
-import LightsOut from "../components/Images/LightsOut.png";
+
 
 function ProjectCard({ project }) {
   const { projectName, Description, imgSrc, webUrl } = project;

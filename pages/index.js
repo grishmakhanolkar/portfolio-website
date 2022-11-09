@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Navbar from "../components/navbar";
-import LandingPage from "../components/landingpage";
-import About from "../components/about";
-import Project from "../components/project";
-import Blogs from "../components/blogs";
-import Contact from "../components/contact";
-import Footer from "../components/footer";
+import Navbar from "../components/navbar/Navbar";
+import LandingPage from "../components/landingPage/LandingPage";
+import About from "../components/about/About.js";
+import Project from "../components/project/Project";
+import Blogs from "../components/blogs/Blogs.js";
+import Contact from "../components/contact/Contact";
+import Footer from "../components/footer/Footer";
 
 export default function Home() {
   return (

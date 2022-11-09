@@ -1,4 +1,4 @@
-import Logo from "../components/Images/logo.png";
+import Logo from "../../components/Images/logo.png";
 import Image from "next/image";
 
 function Navbar() {

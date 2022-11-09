@@ -1,5 +1,5 @@
-import styles from "../styles/Home.module.css";
-import JournalCode from "../components/Images/journal-code.svg";
+import styles from "./About.module.scss";
+import JournalCode from "../../components/Images/journal-code.svg";
 import Image from "next/image";
 
 function About() {
