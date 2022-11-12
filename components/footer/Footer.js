@@ -61,7 +61,7 @@ function Footer() {
                 type="button"
                 class="btn btn-outline-primary m-auto rounded-pill"
               >
-                <Image fill="white" src={thumbsup} /> Let's do it
+                <Image fill="white" src={thumbsup} /> Let us do it
               </button>
             </div>
           </div>
