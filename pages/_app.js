@@ -1,11 +1,11 @@
-import Head from "next/head";
-import { useEffect } from "react";
-import "../css/main.min.css";
-import "../styles/globals.css";
+import Head from 'next/head';
+import { useEffect } from 'react';
+import '../css/main.min.css';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    require('bootstrap/dist/js/bootstrap.bundle.min.js');
   }, []);
   return (
     <>

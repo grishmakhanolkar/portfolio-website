@@ -1,4 +1,4 @@
-import styles from "./Blogs.module.scss";
+import styles from './Blogs.module.scss';
 
 function Blogs() {
   return (

@@ -1,5 +1,5 @@
-import Logo from "../../components/Images/logo.png";
-import Image from "next/image";
+import Logo from '../../components/Images/logo.png';
+import Image from 'next/image';
 
 function Navbar() {
   return (

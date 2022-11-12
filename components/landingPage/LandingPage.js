@@ -1,7 +1,7 @@
-import styles from "./LandingPage.module.scss";
-import avatar from "../../components/Images/AvatarMaker.svg";
-import LandFooter from "../../components/Images/LandFooter.svg";
-import Image from "next/image";
+import styles from './LandingPage.module.scss';
+import avatar from '../../components/Images/AvatarMaker.svg';
+import LandFooter from '../../components/Images/LandFooter.svg';
+import Image from 'next/image';
 
 function LandingPage() {
   return (

@@ -1,18 +1,18 @@
-import styles from "./About.module.scss";
-import JournalCode from "../../components/Images/journal-code.svg";
-import Image from "next/image";
+import styles from './About.module.scss';
+import JournalCode from '../../components/Images/journal-code.svg';
+import Image from 'next/image';
 
 function About() {
   return (
     <section className={styles.about}>
       <div className={styles.aboutInfo}>
         <h1 class="mx-1 mb-4 fw-bold mt-5">
-          Hi, I'm Grishma. Nice to meet you!
+          Hi, I am Grishma. Nice to meet you!
         </h1>
         <p class="fs-5 fw-light mb-5">
           I am a Web Developer. I build apps with a clean UI and a focus on the
           UX. My current tech stack is React, Next JS, Bootstrap and Material
-          UI. I'm open to freelancing and collaborating with others on
+          UI. I am open to freelancing and collaborating with others on
           interesting projects.
         </p>
       </div>

@@ -1,9 +1,8 @@
-import styles from "./ProjectCard.module.scss";
-import Image from "next/image";
-
+import styles from './ProjectCard.module.scss';
+import Image from 'next/image';
 
 function ProjectCard({ project }) {
-  const { projectName, Description, imgSrc, webUrl } = project;
+  const { projectName, Description, imgSrc } = project;
   return (
     <div className={styles.projectImage}>
       <Image

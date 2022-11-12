@@ -1,43 +1,43 @@
-import styles from "./Footer.module.scss";
-import thumbsup from "../../components/Images/hand-thumbs-up.svg";
-import Image from "next/image";
-import FacebookIcon from "../../components/Images/Icons/facebook.svg";
-import GithubIcon from "../../components/Images/Icons/github.svg";
-import Insta from "../../components/Images/Icons/instagram.svg";
-import LinkedinIcon from "../../components/Images/Icons/linkedin.svg";
-import TwitterIcon from "../../components/Images/Icons/twitter.svg";
-import MediumIcon from "../../components/Images/Icons/medium.svg";
+import styles from './Footer.module.scss';
+import thumbsup from '../../components/Images/hand-thumbs-up.svg';
+import Image from 'next/image';
+import FacebookIcon from '../../components/Images/Icons/facebook.svg';
+import GithubIcon from '../../components/Images/Icons/github.svg';
+import Insta from '../../components/Images/Icons/instagram.svg';
+import LinkedinIcon from '../../components/Images/Icons/linkedin.svg';
+import TwitterIcon from '../../components/Images/Icons/twitter.svg';
+import MediumIcon from '../../components/Images/Icons/medium.svg';
 
 const socialIcon = [
   {
-    siteLink: "https://www.linkedin.com/in/grishmakhanolkar/",
+    siteLink: 'https://www.linkedin.com/in/grishmakhanolkar/',
     imgLink: LinkedinIcon,
-    name: "linkedin",
+    name: 'linkedin',
   },
   {
-    siteLink: "https://www.facebook.com/grishma.khanolkar/",
+    siteLink: 'https://www.facebook.com/grishma.khanolkar/',
     imgLink: FacebookIcon,
-    name: "facebook",
+    name: 'facebook',
   },
   {
-    siteLink: "https://www.instagram.com/grishmakhanolkar/",
+    siteLink: 'https://www.instagram.com/grishmakhanolkar/',
     imgLink: Insta,
-    name: "insta",
+    name: 'insta',
   },
   {
-    siteLink: "https://twitter.com/k_grishma/",
+    siteLink: 'https://twitter.com/k_grishma/',
     imgLink: TwitterIcon,
-    name: "twitter",
+    name: 'twitter',
   },
   {
-    siteLink: "https://github.com/grishmakhanolkar",
+    siteLink: 'https://github.com/grishmakhanolkar',
     imgLink: GithubIcon,
-    name: "github",
+    name: 'github',
   },
   {
-    siteLink: "https://medium.com/@grishmakhanolkar",
+    siteLink: 'https://medium.com/@grishmakhanolkar',
     imgLink: MediumIcon,
-    name: "medium",
+    name: 'medium',
   },
 ];
 
@@ -68,11 +68,16 @@ function Footer() {
         </div>
       </div>
       <h2 class="fs-5 fw-light m-5 pb-5 pt-5">
-        Living, learning, & leveling up one day at a time.
+        Living, learning, and leveling up one day at a time.
       </h2>
       <div>
         {socialIcon.map((socIcon) => (
-          <a class="m-4 mt-5 pt-5 pb-5" target="blank" href={socIcon.siteLink}>
+          <a
+            key={socIcon.name}
+            class="m-4 mt-5 pt-5 pb-5"
+            target="blank"
+            href={socIcon.siteLink}
+          >
             <Image
               alt={socIcon.name}
               src={socIcon.imgLink}
