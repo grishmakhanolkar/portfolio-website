@@ -10,6 +10,8 @@ function ProjectCard({ project }) {
         width={4}
         height={3}
         layout="responsive"
+        objectFit="cover"
+        objectPosition="top"
         src={imgSrc}
       />
       <div className={styles.projectname}>
@@ -17,7 +19,7 @@ function ProjectCard({ project }) {
         <p class="fs-6 fw-light mb-3 p-1">{Description}</p>
         <button
           type="button"
-          class="btn btn-outline-primary ms-auto rounded-pill"
+          class="btn btn-outline-secondary ms-auto rounded-pill"
         >
           Visit Website
         </button>
