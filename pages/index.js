@@ -2,12 +2,13 @@ import Head from 'next/head';
 import Navbar from '../components/navbar/Navbar';
 import LandingPage from '../components/landingPage/LandingPage';
 import About from '../components/about/About.js';
-import Project from '../components/project/Project';
+import ProjectList from '../components/projectList/ProjectList';
 import Blogs from '../components/blogs/Blogs.js';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
+import Parser from 'rss-parser';
 
-export default function Home() {
+export default function Home({ blogs }) {
   return (
     <div>
       <Head>
@@ -19,11 +20,35 @@ export default function Home() {
         <Navbar />
         <LandingPage />
         <About />
-        <Project />
+        <ProjectList />
         <Contact />
-        <Blogs />
+        <Blogs blogs={blogs} />
         <Footer />
       </div>
     </div>
   );
+}
+
+export async function getServerSideProps() {
+  const parser = new Parser();
+  const result = await fetch('https://medium.com/feed/@grishmakhanolkar');
+  const feed = await parser.parseString(await result.text());
+  let blogs = feed.items;
+  const filterURLs = [
+    'https://medium.com/p/5736a7718335',
+    'https://medium.com/p/d4f68331537',
+    'https://medium.com/p/c99d0022a467',
+  ];
+  blogs = blogs
+    .filter((blog) => {
+      return filterURLs.includes(blog.guid);
+    })
+    .map((blog) => {
+      return {
+        title: blog.title,
+        link: blog.guid,
+        categories: blog.categories,
+      };
+    });
+  return { props: { blogs } };
 }
