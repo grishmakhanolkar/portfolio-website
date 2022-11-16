@@ -18,19 +18,17 @@ const projectDetails = [
   },
   {
     id: 2,
-    projectName: 'ToDo App',
-    Description:
-      'Create your To Do list using this app. Created using React, React Hooks and Material UI.',
-    imgSrc: Todo,
-    webUrl: 'https://project-todo-list-app.netlify.app',
-  },
-
-  {
-    id: 3,
     projectName: 'Login Page',
     Description: 'Google OAuth Login page',
     imgSrc: Login,
     webUrl: 'https://loginpage-sample.netlify.app/',
+  },
+  {
+    id: 3,
+    projectName: 'Lights Out',
+    Description: 'Make all cells white to win',
+    imgSrc: LightsOut,
+    webUrl: 'https://projectlightsout.netlify.app',
   },
   {
     id: 4,
@@ -41,10 +39,11 @@ const projectDetails = [
   },
   {
     id: 5,
-    projectName: 'Lights Out',
-    Description: 'Make all cells white to win',
-    imgSrc: LightsOut,
-    webUrl: 'https://projectlightsout.netlify.app',
+    projectName: 'ToDo App',
+    Description:
+      'Create your To Do list using this app. Created using React, React Hooks and Material UI.',
+    imgSrc: Todo,
+    webUrl: 'https://project-todo-list-app.netlify.app',
   },
   {
     id: 6,

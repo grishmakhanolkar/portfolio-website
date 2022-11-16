@@ -32,13 +32,13 @@ function About() {
             </p>
             <dl>
               <dt class="fs-6 p-2">Languages I speak:</dt>
-              <dd class="p-2">HTML, JavaScript, CSS</dd>
+              <dd class="p-2">HTML, JavaScript, CSS, NodeJS</dd>
               <dt class="p-2">Libraries I have used:</dt>
               <dd class="p-2">SCSS, ReactJS</dd>
               <dt class="p-2">Frameworks I have tried:</dt>
               <dd class="p-2">NextJS, Bootstrap, Material UI</dd>
               <dt class="p-2">Tools:</dt>
-              <dd class="p-2">Github, Node, Netlify, VSCode</dd>
+              <dd class="p-2">Github, Netlify, VSCode</dd>
             </dl>
           </div>
         </div>

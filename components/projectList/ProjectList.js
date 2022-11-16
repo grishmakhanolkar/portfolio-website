@@ -13,7 +13,7 @@ function ProjectList() {
       <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5 mx-1">
           {projectDetails
-            .filter((_, idx) => idx < 6)
+            .filter((_, idx) => idx < 3)
             .map((project) => (
               <div key={project.id} class="col d-block">
                 <ProjectCard project={project} />
