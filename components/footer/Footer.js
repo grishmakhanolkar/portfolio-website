@@ -1,11 +1,11 @@
 import styles from './Footer.module.scss';
 import Image from 'next/image';
-import FacebookIcon from '../../components/Images/Icons/facebook.svg';
-import GithubIcon from '../../components/Images/Icons/github.svg';
-import Insta from '../../components/Images/Icons/instagram.svg';
-import LinkedinIcon from '../../components/Images/Icons/linkedin.svg';
-import TwitterIcon from '../../components/Images/Icons/twitter.svg';
-import MediumIcon from '../../components/Images/Icons/medium.svg';
+// import FacebookIcon from '../../Images/Icons/facebook.svg';
+import GithubIcon from '../../Images/Icons/github.svg';
+// import Insta from '../../Images/Icons/instagram.svg';
+import LinkedinIcon from '../../Images/Icons/linkedin.svg';
+import TwitterIcon from '../../Images/Icons/twitter.svg';
+import MediumIcon from '../../Images/Icons/medium.svg';
 
 const socialIcon = [
   {
@@ -13,16 +13,16 @@ const socialIcon = [
     imgLink: LinkedinIcon,
     name: 'linkedin',
   },
-  {
-    siteLink: 'https://www.facebook.com/grishma.khanolkar/',
-    imgLink: FacebookIcon,
-    name: 'facebook',
-  },
-  {
-    siteLink: 'https://www.instagram.com/grishmakhanolkar/',
-    imgLink: Insta,
-    name: 'insta',
-  },
+  // {
+  //   siteLink: 'https://www.facebook.com/grishma.khanolkar/',
+  //   imgLink: FacebookIcon,
+  //   name: 'facebook',
+  // },
+  // {
+  //   siteLink: 'https://www.instagram.com/grishmakhanolkar/',
+  //   imgLink: Insta,
+  //   name: 'insta',
+  // },
   {
     siteLink: 'https://twitter.com/k_grishma/',
     imgLink: TwitterIcon,
@@ -50,7 +50,7 @@ function Footer() {
               <h2 class="m-auto fw-bold fs-0">Start a project</h2>
             </div>
             <div class="col d-block d-flex align-items-center">
-              <h2 class="fs-4 fw-light m-auto">
+              <h2 class="fs-6 fw-light m-auto">
                 Interested in working together? We should queue up a time to
                 chat.
               </h2>

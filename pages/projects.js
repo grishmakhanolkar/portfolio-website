@@ -1,5 +1,5 @@
 import ProjectCard from '../components/projectCard/ProjectCard';
-import projectDetails from '../components/ProjectDetails';
+import projectDetails from '../ProjectDetails';
 import PageHeader from '../components/pageHeader/PageHeader';
 
 function Project() {

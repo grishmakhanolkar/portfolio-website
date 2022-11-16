@@ -1,5 +1,5 @@
 import styles from './About.module.scss';
-import JournalCode from '../../components/Images/journal-code.svg';
+import JournalCode from '../../Images/journal-code.svg';
 import Image from 'next/image';
 
 function About() {
@@ -18,19 +18,28 @@ function About() {
       </div>
       <div className={styles.aboutCard}>
         <div class="card p-5 shadow">
-          <Image width={50} height={50} src={JournalCode} />
+          <Image
+            width={50}
+            height={50}
+            src={JournalCode}
+            alt="Frontend developer"
+          />
           <div class="card-body d-flex justify-content-center flex-column p-3">
             <h3 class="p-4">Frontend Developer</h3>
-            <p class="p-2">
+            <p class="fs-5 p-2">
               I like to code things from scratch, and enjoy bringing ideas to
               life in the browser.
             </p>
-            <p class="p-2">Languages I speak:</p>
-            <p class="p-2">HTML, JavaScript, CSS, SCSS, ReactJS, NextJS, Git</p>
-            <p class="p-2">Dev Tools:</p>
-            <p class="p-2">
-              Bootstrap, Github, Material UI, Node, Netlify, VSCode
-            </p>
+            <dl>
+              <dt class="fs-6 p-2">Languages I speak:</dt>
+              <dd class="p-2">HTML, JavaScript, CSS</dd>
+              <dt class="p-2">Libraries I have used:</dt>
+              <dd class="p-2">SCSS, ReactJS</dd>
+              <dt class="p-2">Frameworks I have tried:</dt>
+              <dd class="p-2">NextJS, Bootstrap, Material UI</dd>
+              <dt class="p-2">Tools:</dt>
+              <dd class="p-2">Github, Node, Netlify, VSCode</dd>
+            </dl>
           </div>
         </div>
       </div>

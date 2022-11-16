@@ -1,6 +1,6 @@
 import styles from './LandingPage.module.scss';
-import avatar from '../../components/Images/AvatarMaker.svg';
-import LandFooter from '../../components/Images/LandFooter.svg';
+import avatar from '../../Images/AvatarMaker.svg';
+import LandFooter from '../../Images/LandFooter.svg';
 import Image from 'next/image';
 
 function LandingPage() {
@@ -17,11 +17,12 @@ function LandingPage() {
             height={200}
             class="rounded-circle mt-2"
             src={avatar}
+            alt="avatar"
           />
         </div>
       </section>
       <div class="d-flex justify-content-center pt-5 mt-5">
-        <Image class="h-50" fill src={LandFooter} />
+        <Image class="h-50" fill src={LandFooter} alt="illustration" />
       </div>
     </>
   );

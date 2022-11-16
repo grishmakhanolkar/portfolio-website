@@ -25,7 +25,7 @@ function Blogs(myBlogs) {
               type="button"
               class="btn btn-outline-primary mx-auto mt-3 mb-3 rounded-pill"
             >
-              View Blog
+              Read article
             </a>
           </div>
         </div>

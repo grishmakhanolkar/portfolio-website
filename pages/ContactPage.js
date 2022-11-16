@@ -9,6 +9,8 @@ const defaultFormFields = {
   message: '',
 };
 
+const sheetURL = process.env.sheetURL;
+
 function ContactPage() {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { userName, email, message } = formFields;
@@ -24,16 +26,13 @@ function ContactPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch(
-      'https://sheet.best/api/sheets/8e7710d2-54ff-4f18-833e-21cf242bd38b',
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formFields),
-      }
-    );
+    fetch(`${sheetURL}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formFields),
+    });
     setFormFields(defaultFormFields);
     Router.push('/success');
   };

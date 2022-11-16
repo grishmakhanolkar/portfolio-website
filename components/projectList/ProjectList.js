@@ -1,6 +1,6 @@
 import styles from './ProjectList.module.scss';
 import ProjectCard from '../projectCard/ProjectCard';
-import projectDetails from '../ProjectDetails';
+import projectDetails from '../../ProjectDetails';
 
 function ProjectList() {
   return (

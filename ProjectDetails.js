@@ -1,11 +1,11 @@
-import Hangman from '../components/Images/HangMan.png';
-import LightsOut from '../components/Images/LightsOut.png';
-import Login from '../components/Images/Login.png';
-import QRCode from '../components/Images/QRCode.png';
-import Translator from '../components/Images/Translator.png';
-import ColourPalette from '../components/Images/colourpalette.png';
-import YTVideoPlayer from '../components/Images/YTVideoPlayer.png';
-import Todo from '../components/Images/Todo.png';
+import Hangman from './Images/HangMan.png';
+import LightsOut from './Images/LightsOut.png';
+import Login from './Images/Login.png';
+import QRCode from './Images/QRCode.png';
+import Translator from './Images/Translator.png';
+import ColourPalette from './Images/colourpalette.png';
+import YTVideoPlayer from './Images/YTVideoPlayer.png';
+import Todo from './Images/Todo.png';
 
 const projectDetails = [
   {
