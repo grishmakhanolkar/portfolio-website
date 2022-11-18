@@ -35,10 +35,10 @@ export async function getServerSideProps() {
   try {
     const parser = new Parser();
     const result = await fetch('https://medium.com/feed/@grishmakhanolkar');
-    console.log(result.text());
-    const feed = await parser.parseString(await result.text());
+    const response = await result.text();
+    console.log(response);
+    const feed = await parser.parseString(response);
     blogs = feed.items;
-    console.log(result, blogs);
     const filterURLs = [
       'https://medium.com/p/5736a7718335',
       'https://medium.com/p/d4f68331537',
