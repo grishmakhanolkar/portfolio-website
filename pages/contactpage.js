@@ -26,6 +26,7 @@ function ContactPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    console.log(SHEET_URL);
     fetch(`${SHEET_URL}`, {
       method: 'POST',
       headers: {

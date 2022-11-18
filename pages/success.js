@@ -1,6 +1,8 @@
 import PageHeader from '../components/pageHeader/PageHeader';
 
 function Success() {
+  const SHEET_URL = process.env.SHEET_URL;
+  console.log(SHEET_URL);
   return (
     <section>
       <PageHeader />
