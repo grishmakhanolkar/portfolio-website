@@ -9,8 +9,6 @@ const defaultFormFields = {
   message: '',
 };
 
-const SHEET_URL = process.env.SHEET_URL;
-
 function ContactPage() {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { userName, email, message } = formFields;
@@ -26,14 +24,14 @@ function ContactPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(SHEET_URL);
-    fetch(`${SHEET_URL}`, {
+    const reply = fetch('/api/sendmessage', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(formFields),
     });
+    console.log(reply);
     setFormFields(defaultFormFields);
     Router.push('/success');
   };

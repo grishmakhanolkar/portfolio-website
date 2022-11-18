@@ -36,7 +36,7 @@ export async function getServerSideProps() {
     const parser = new Parser();
     const result = await fetch('https://medium.com/feed/@grishmakhanolkar');
     const response = await result.text();
-    console.log(response);
+    // console.log(response);
     const feed = await parser.parseString(response);
     blogs = feed.items;
     const filterURLs = [
@@ -57,7 +57,7 @@ export async function getServerSideProps() {
       });
     gotBlogs = true;
   } catch (error) {
-    console.log(error);
+    // console.log(error);
     gotBlogs = false;
   }
 
