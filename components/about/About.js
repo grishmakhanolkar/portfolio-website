@@ -31,7 +31,7 @@ function About() {
               life in the browser.
             </p>
             <dl>
-              <dt class="fs-6 p-2">Languages I speak:</dt>
+              <dt class="p-2">Languages I speak:</dt>
               <dd class="p-2">HTML, JavaScript, CSS, NodeJS</dd>
               <dt class="p-2">Libraries I have used:</dt>
               <dd class="p-2">SCSS, ReactJS</dd>

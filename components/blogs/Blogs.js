@@ -30,6 +30,14 @@ function Blogs(myBlogs) {
           </div>
         </div>
       ))}
+      <a
+        href="https://medium.com/@grishmakhanolkar"
+        target="blank"
+        type="button"
+        class="btn btn-outline-primary mx-auto mt-3 mb-3 rounded-pill"
+      >
+        Read more blogs on Medium
+      </a>
       <hr />
     </section>
   );

@@ -1,8 +1,6 @@
 import styles from './Footer.module.scss';
 import Image from 'next/image';
-// import FacebookIcon from '../../Images/Icons/facebook.svg';
 import GithubIcon from '../../Images/Icons/github.svg';
-// import Insta from '../../Images/Icons/instagram.svg';
 import LinkedinIcon from '../../Images/Icons/linkedin.svg';
 import TwitterIcon from '../../Images/Icons/twitter.svg';
 import MediumIcon from '../../Images/Icons/medium.svg';
@@ -13,16 +11,6 @@ const socialIcon = [
     imgLink: LinkedinIcon,
     name: 'linkedin',
   },
-  // {
-  //   siteLink: 'https://www.facebook.com/grishma.khanolkar/',
-  //   imgLink: FacebookIcon,
-  //   name: 'facebook',
-  // },
-  // {
-  //   siteLink: 'https://www.instagram.com/grishmakhanolkar/',
-  //   imgLink: Insta,
-  //   name: 'insta',
-  // },
   {
     siteLink: 'https://twitter.com/k_grishma/',
     imgLink: TwitterIcon,
@@ -44,7 +32,7 @@ function Footer() {
   return (
     <section className={styles.footer}>
       <div className={styles.footerCard}>
-        <div class="card p-5 shadow bg-transparent border-0">
+        <div class="card p-5 shadow bg-transparent rounded-4">
           <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-3 gy-5 mx-1">
             <div class="col d-block d-flex align-items-center">
               <h2 class="m-auto fw-bold fs-0">Start a project</h2>

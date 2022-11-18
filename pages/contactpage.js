@@ -24,14 +24,13 @@ function ContactPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const reply = fetch('/api/sendmessage', {
+    fetch('/api/sendmessage', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(formFields),
     });
-    console.log(reply);
     setFormFields(defaultFormFields);
     Router.push('/success');
   };

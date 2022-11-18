@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { useEffect } from 'react';
-// import '../css/main.min.css';
 import '../styles/globals.scss';
 
 function MyApp({ Component, pageProps }) {
