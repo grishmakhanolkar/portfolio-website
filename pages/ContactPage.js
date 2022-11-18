@@ -9,7 +9,7 @@ const defaultFormFields = {
   message: '',
 };
 
-const sheetURL = process.env.sheetURL;
+const SHEET_URL = process.env.SHEET_URL;
 
 function ContactPage() {
   const [formFields, setFormFields] = useState(defaultFormFields);
@@ -26,7 +26,7 @@ function ContactPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch(`${sheetURL}`, {
+    fetch(`${SHEET_URL}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
