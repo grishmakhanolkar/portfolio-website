@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h1>Name and Description</h1>
+<p><strong>Portfolio Website:</strong> This is my personal website showcasing some of my recent work</p>
+<hr/>
+<h2>Purpose and Goal</h2>
+<br/>
+<p>I wanted to upgrade my existing website and make it more modern/polished. </p>
+<p>I have tried to implement some of my new learnings into this website, like for fetching and displaying my blogs, I have used meduim APIs and I have integrated the 'say hello/collaborate with me' form with google sheets</p>
+<hr/>
+<h2>Web Stack and Explanation</h2>
+<br/>
+<p><strong>NextJS:</strong> My last project was based on React but this website is developed using framework NextJS. The reason for using this framework is that it is simple to implement and comes with many added features. Some of which are:
+<br/>
+<ul>
+<li>File-system based routing: I have added all files that need routing under pages.
+<p float="left">
+<img width="250" src="./Images/forReadme/pages.png"/> <img width="250" src="./Images/forReadme/contactpage.png"/></p></li>
+<li>
+Built-in scss support to extend css used by Bootstrap
+<p float="left">
+<img width="250"  src="./Images/forReadme/scss.png"/> <img width="250" src="./Images/forReadme/website.png"/></p></li>
+<li>Server-side APIs to fetch blogs
+<p float="left">
+<img width="250"  src="./Images/forReadme/api.png"/> <img width="250" src="./Images/forReadme/blog.png"/></p></li>
+</ul>
+<br/>
+<p><strong>Bootstrap 5:</strong> Its was ease to implement a responsive layout using bootstrap components and classes. 
+<ul><p float="left">
+<img width="400"  src="./Images/forReadme/website.png"/> <img height="205" src="./Images/forReadme/mobile.png"/></p></ul>
+I have also used bootstrap icons.</p>
+<p><strong>Others:</strong> HTML/CSS/SCSS/JavaScript</p>
+<hr/>
+<h2>Resources</h2>
+<br/>
+<p>For generating Avatar: https://avatarmaker.com/ </p>
+<p>For creating illustration this is placed on the space below avatar: https://undraw.co/illustrations </p>
+<p>For favicon and logo generator I have used site: https://favicon.io/</p>
+<p>For deciding on colours and checking its contrast/readability I have used color-wheel by adobe: https://color.adobe.com/create/color-wheel </p>
+<p>And for fonts: https://fonts.google.com/ </p>
+<hr/>
