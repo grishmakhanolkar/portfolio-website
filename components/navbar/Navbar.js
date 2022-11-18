@@ -38,7 +38,7 @@ function Navbar() {
               </li>
               <li class="nav-item mx-3">
                 <a
-                  href="/ContactPage"
+                  href="/contactpage"
                   type="button"
                   class="btn btn-outline-primary ms-auto rounded-pill"
                 >

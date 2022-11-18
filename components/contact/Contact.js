@@ -7,7 +7,7 @@ function Contact() {
         opportunities.
       </p>
       <a
-        href="/ContactPage"
+        href="/contactpage"
         type="button"
         class="btn btn-outline-primary ms-auto mb-5 rounded-pill"
       >

@@ -57,7 +57,7 @@ function Footer() {
             </div>
             <div class="col d-block d-flex align-items-center">
               <a
-                href="/ContactPage"
+                href="/contactpage"
                 type="button"
                 class="btn btn-outline-secondary m-auto rounded-pill"
               >
