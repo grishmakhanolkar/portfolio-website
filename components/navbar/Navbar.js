@@ -23,7 +23,11 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item mx-3">
-                <a class="nav-link link-dark" aria-current="page" href="#project">
+                <a
+                  class="nav-link link-dark"
+                  aria-current="page"
+                  href="#project"
+                >
                   Projects
                 </a>
               </li>
