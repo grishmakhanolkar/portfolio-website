@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.5",
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.10.1",
     "eslint-config-prettier": "^8.5.0",
