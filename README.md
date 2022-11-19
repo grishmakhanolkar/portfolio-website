@@ -9,8 +9,8 @@
 #### Features:
 - [x] Responsive layout
 - [x] Server-side APIs for Medium & Google Sheets
-- [x] Hosted on edge of internet using Vercel
-- [ ] Google Analytics
+- [x] Hosted using Vercel
+- [x] Google Analytics
 - [ ] CI/CD pipeline with Github Actions
 - [ ] Automated Testing  
 - [ ] Performance debugging and optimization
