@@ -7,15 +7,15 @@ import styles from './PageHeader.module.scss';
 function PageHeader() {
   return (
     <section>
-      <nav class="navbar bg-transparent">
-        <div class="container-fluid mx-5 mt-3">
-          <a class="navbar-brand" href="/">
+      <nav className="navbar bg-transparent">
+        <div className="container-fluid mx-5 mt-3">
+          <a className="navbar-brand" href="/">
             <Image width={50} height={50} src={Logo} alt="Logo" />
           </a>
 
-          <ul class="navbar-nav ms-auto d-flex flex-row">
-            <li class="nav-item mx-3">
-              <a class="nav-link link-dark" aria-current="page" href="/">
+          <ul className="navbar-nav ms-auto d-flex flex-row">
+            <li className="nav-item mx-3">
+              <a className="nav-link link-dark" aria-current="page" href="/">
                 <Image width={25} height={25} src={close} alt="close" />
               </a>
             </li>

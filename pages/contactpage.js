@@ -39,34 +39,34 @@ function ContactPage() {
     <section>
       <PageHeader />
       <div className={styles.contactForm}>
-        <h2 class="fs-3 fw-light m-5 pb-3">
+        <h2 className="fs-3 fw-light m-5 pb-3">
           Thanks for taking the time to reach out. How can I help you today?
           Want to discuss a startup collaboration? I am most definitely game.
           Drop me a message.
         </h2>
         <form onSubmit={handleSubmit}>
-          <div class="container m-2 p-2">
-            <div class="row">
-              <div class="col-sm-6 m-auto">
-                <label for="Name" class="form-label text-start">
+          <div className="container m-2 p-2">
+            <div className="row">
+              <div className="col-sm-6 m-auto">
+                <label htmlFor="Name" className="form-label text-start">
                   Your Name
                 </label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="Name"
                   name="userName"
                   value={userName}
                   onChange={handleChange}
                 />
               </div>
-              <div class="col-sm-6 m-auto">
-                <label for="InputEmail1" class="form-label">
+              <div className="col-sm-6 m-auto">
+                <label htmlFor="InputEmail1" className="form-label">
                   Email address
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="InputEmail1"
                   name="email"
                   value={email}
@@ -75,16 +75,16 @@ function ContactPage() {
               </div>
             </div>
           </div>
-          <div class="container m-2 p-2">
-            <div class="row">
-              <div class="col">
-                <label for="Message" class="form-label">
+          <div className="container m-2 p-2">
+            <div className="row">
+              <div className="col">
+                <label htmlFor="Message" className="form-label">
                   Message
                 </label>
                 <input
                   style={{ height: '250px' }}
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="Message"
                   name="message"
                   value={message}
@@ -93,17 +93,17 @@ function ContactPage() {
               </div>
             </div>
           </div>
-          <div class="d-flex flex-row m-5">
+          <div className="d-flex flex-row m-5">
             <button
               type="button"
-              class="btn btn-outline-primary px-5 mb-5 rounded-pill"
+              className="btn btn-outline-primary px-5 mb-5 rounded-pill"
               onClick={resetFormFields}
             >
               Reset
             </button>
             <button
               type="submit"
-              class="btn btn-outline-primary px-5 mb-5 rounded-pill"
+              className="btn btn-outline-primary px-5 mb-5 rounded-pill"
             >
               Submit
             </button>
