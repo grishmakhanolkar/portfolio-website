@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loads and displays about 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="blogs"
+        id="blogs"
+      >
+        <div
+          class="blogsLayout"
+        >
+          <div
+            class="blogsInfo"
+          >
+            <h1
+              class="mx-1 mb-4 fw-bold mt-5"
+            >
+              My Blogs
+            </h1>
+            <p
+              class="fs-5 fw-light mb-5"
+            >
+              Here are some of my recent blog posts.
+            </p>
+          </div>
+          <div
+            class="blogsCard"
+          >
+            <div
+              class="card p-3 shadow"
+            >
+              <h2>
+                Firebase for Login and Logout— Part 1
+              </h2>
+              <div
+                class="d-inline-flex flex-row flex-wrap justify-content-center mx-auto "
+              >
+                <div
+                  class="m-2 p-2 border border-dark rounded"
+                >
+                  firebaseauthentication
+                </div>
+                <div
+                  class="m-2 p-2 border border-dark rounded"
+                >
+                  firestore
+                </div>
+                <div
+                  class="m-2 p-2 border border-dark rounded"
+                >
+                  google-oauth
+                </div>
+                <div
+                  class="m-2 p-2 border border-dark rounded"
+                >
+                  authentication
+                </div>
+                <div
+                  class="m-2 p-2 border border-dark rounded"
+                >
+                  firebase
+                </div>
+              </div>
+              <a
+                class="btn btn-outline-primary mx-auto mt-3 mb-3 rounded-pill"
+                href="https://medium.com/p/c99d0022a467"
+                target="blank"
+                type="button"
+              >
+                Read article
+              </a>
+            </div>
+          </div>
+          <div
+            class="blogsCard"
+          >
+            <div
+              class="card p-3 shadow"
+            >
+              <h2>
+                React Router v6
+              </h2>
+              <div
+                class="d-inline-flex flex-row flex-wrap justify-content-center mx-auto "
+              >
+                <div
+                  class="m-2 p-2 border border-dark rounded"
+                >
+                  react
+                </div>
+                <div
+                  class="m-2 p-2 border border-dark rounded"
+                >
+                  react-router-v6
+                </div>
+              </div>
+              <a
+                class="btn btn-outline-primary mx-auto mt-3 mb-3 rounded-pill"
+                href="https://medium.com/p/5736a7718335"
+                target="blank"
+                type="button"
+              >
+                Read article
+              </a>
+            </div>
+          </div>
+          <a
+            class="btn btn-outline-primary mx-auto mt-3 mb-3 rounded-pill"
+            href="https://medium.com/@grishmakhanolkar"
+            target="blank"
+            type="button"
+          >
+            Read more blogs on Medium
+          </a>
+        </div>
+        <hr />
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="blogs"
+      id="blogs"
+    >
+      <div
+        class="blogsLayout"
+      >
+        <div
+          class="blogsInfo"
+        >
+          <h1
+            class="mx-1 mb-4 fw-bold mt-5"
+          >
+            My Blogs
+          </h1>
+          <p
+            class="fs-5 fw-light mb-5"
+          >
+            Here are some of my recent blog posts.
+          </p>
+        </div>
+        <div
+          class="blogsCard"
+        >
+          <div
+            class="card p-3 shadow"
+          >
+            <h2>
+              Firebase for Login and Logout— Part 1
+            </h2>
+            <div
+              class="d-inline-flex flex-row flex-wrap justify-content-center mx-auto "
+            >
+              <div
+                class="m-2 p-2 border border-dark rounded"
+              >
+                firebaseauthentication
+              </div>
+              <div
+                class="m-2 p-2 border border-dark rounded"
+              >
+                firestore
+              </div>
+              <div
+                class="m-2 p-2 border border-dark rounded"
+              >
+                google-oauth
+              </div>
+              <div
+                class="m-2 p-2 border border-dark rounded"
+              >
+                authentication
+              </div>
+              <div
+                class="m-2 p-2 border border-dark rounded"
+              >
+                firebase
+              </div>
+            </div>
+            <a
+              class="btn btn-outline-primary mx-auto mt-3 mb-3 rounded-pill"
+              href="https://medium.com/p/c99d0022a467"
+              target="blank"
+              type="button"
+            >
+              Read article
+            </a>
+          </div>
+        </div>
+        <div
+          class="blogsCard"
+        >
+          <div
+            class="card p-3 shadow"
+          >
+            <h2>
+              React Router v6
+            </h2>
+            <div
+              class="d-inline-flex flex-row flex-wrap justify-content-center mx-auto "
+            >
+              <div
+                class="m-2 p-2 border border-dark rounded"
+              >
+                react
+              </div>
+              <div
+                class="m-2 p-2 border border-dark rounded"
+              >
+                react-router-v6
+              </div>
+            </div>
+            <a
+              class="btn btn-outline-primary mx-auto mt-3 mb-3 rounded-pill"
+              href="https://medium.com/p/5736a7718335"
+              target="blank"
+              type="button"
+            >
+              Read article
+            </a>
+          </div>
+        </div>
+        <a
+          class="btn btn-outline-primary mx-auto mt-3 mb-3 rounded-pill"
+          href="https://medium.com/@grishmakhanolkar"
+          target="blank"
+          type="button"
+        >
+          Read more blogs on Medium
+        </a>
+      </div>
+      <hr />
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
