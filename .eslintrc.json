@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "jest/globals": true
     },
     "extends": [
         "plugin:react/recommended",
@@ -17,14 +18,20 @@
     },
     "plugins": [
         "react",
-        "prettier"
+        "prettier",
+        "jest"
     ],
     "rules": {
         "prettier/prettier":[
             "error"
         ],
         "react/react-in-jsx-scope":"off",
-        "react/prop-types":"off"
+        "react/prop-types":"off",
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
         // "react/jsx-props-no-spreading":"off",
         // "react/no-unknown-property":"off"
     }
