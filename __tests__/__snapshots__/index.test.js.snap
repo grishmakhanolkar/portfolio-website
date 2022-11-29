@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`loads and displays home 1`] = `
+exports[`loads and displays home 1 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1683,7 +1683,7 @@ exports[`loads and displays home 1`] = `
 }
 `;
 
-exports[`loads and displays home 2`] = `
+exports[`loads and displays home 2 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>

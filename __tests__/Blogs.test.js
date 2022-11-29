@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import Blogs from './Blogs';
+import Blogs from '../components/blogs/Blogs';
 import '@testing-library/jest-dom';
 
 const mockBlogs = [
