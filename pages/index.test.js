@@ -34,12 +34,12 @@ const mockBlogs = [
 
 const mockGotBlogs = true;
 
-it('loads and displays home', async () => {
+it('loads and displays home 1', async () => {
   expect(
     render(<Home blogs={mockBlogs} gotBlogs={mockGotBlogs} />)
   ).toMatchSnapshot();
 });
-it('loads and displays home', async () => {
+it('loads and displays home 2', async () => {
   expect(
     render(<Home blogs={mockBlogs} gotBlogs={!mockGotBlogs} />)
   ).toMatchSnapshot();
