@@ -9,7 +9,8 @@
         "plugin:react/recommended",
         "standard-with-typescript",
         "plugin:@next/next/recommended",
-        "prettier"
+        "prettier",
+        "plugin:jest/recommended"
     ],
     "overrides": [
     ],
