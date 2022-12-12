@@ -38,7 +38,7 @@ function About() {
               <dt className="p-2">Frameworks I have tried:</dt>
               <dd className="p-2">NextJS, Bootstrap, Material UI</dd>
               <dt className="p-2">Tools:</dt>
-              <dd className="p-2">Github, Netlify, VSCode</dd>
+              <dd className="p-2">Github, Netlify, VSCode, Postman</dd>
             </dl>
           </div>
         </div>
