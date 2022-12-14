@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Portfolio Website</h1>
+<p>This is my personal website showcasing some of my recent work</p>
+<hr/>
+<h2>Purpose and Goal</h2>
+<br/>
+<p>I wanted to upgrade my existing website and make it more modern/polished. </p>
+<p>I have tried to implement some of the learnings from NextJS and Bootstrap into this website</p>
 
-## Getting Started
+#### Features:
+- [x] Responsive layout
+- [x] Server-side APIs for Medium & Google Sheets
+- [x] Hosted using Vercel
+- [x] Google Analytics
+- [ ] CI/CD pipeline with Github Actions
+- [ ] Automated Testing  
+- [ ] Performance debugging and optimization
 
-First, run the development server:
+<hr/>
+<h2>Web Stack and Explanation</h2>
+<br/>
+<p><strong>NextJS:</strong> My last project was based on React but this website is developed using NextJS. The reason for using NextJS is that it is simple to implement and comes with many added features. Some features that I have implemented are:
+<br/>
+<ul>
+<li>File-system based routing: I have added all files that need routing under pages.
+<p float="left">
+<img width="250" src="./Images/forReadme/pages.png"/> <img width="250" src="./Images/forReadme/contactpage.png"/></p></li>
+<li>
+Built-in scss support to extend css used by Bootstrap
+<p float="left">
+<img width="250"  src="./Images/forReadme/scss.png"/> <img width="250" src="./Images/forReadme/website.png"/></p></li>
+<li>Server-side APIs to fetch blogs
+<p float="left">
+<img width="250"  src="./Images/forReadme/api.png"/> <img width="250" src="./Images/forReadme/blog.png"/></p></li>
+</ul>
+<br/>
+<p><strong>Bootstrap 5:</strong>
+<ul>
+<li> It was easy to implement a responsive layout using bootstrap components and classes (Flexbox and Grid). 
+<p float="left">
+<img width="400"  src="./Images/forReadme/website.png"/> <img height="205" src="./Images/forReadme/mobile.png"/></p></li>
+<li>I have also used bootstrap icons.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<img height="50" src="./Images/forReadme/icons.png"/></li></ul></p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<hr/>
+<h2>Resources</h2>
+<br/>
+<ul>
+<li>For generating Avatar: https://avatarmaker.com/ </li>
+<li>For creating illustration this is placed on the space below avatar: https://undraw.co/illustrations </li>
+<li>For favicon and logo generator I have used site: https://favicon.io/</li>
+<li>For deciding on colours and checking its contrast/readability I have used color-wheel by adobe: https://color.adobe.com/create/color-wheel </li>
+<li>And for fonts: https://fonts.google.com/ </li>
+</ul>
+<hr/>

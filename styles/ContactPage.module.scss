@@ -1,0 +1,28 @@
+.contactHeader{
+    position: relative;
+}
+
+.contactHeader:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    display: block;
+    position: absolute;
+    left:0;
+    top:50%;
+}
+
+.contactForm{
+    max-width: 800px;
+    margin: auto;
+    text-align: start;
+
+    h2{
+        text-align: center;
+    }
+    button{
+        display:block;
+        margin: auto;
+    }
+}
