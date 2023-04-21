@@ -13,16 +13,14 @@ const projectDetails = [
   {
     id: 1,
     projectName: 'CSV Editor',
-    Description:
-      'Upload and edit any CSV file.',
+    Description: 'Upload and edit any CSV file.',
     imgSrc: editCSV,
     webUrl: 'https://editcsv.netlify.app/',
   },
   {
     id: 2,
     projectName: 'E-commerce',
-    Description:
-      'Shopping website.',
+    Description: 'Shopping website.',
     imgSrc: ecomm,
     webUrl: 'https://cloth-shop.netlify.app/',
   },
@@ -40,7 +38,7 @@ const projectDetails = [
     imgSrc: Login,
     webUrl: 'https://loginpage-sample.netlify.app/',
   },
-  
+
   {
     id: 5,
     projectName: 'Hangman',

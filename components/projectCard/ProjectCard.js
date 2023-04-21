@@ -16,7 +16,7 @@ function ProjectCard({ project }) {
         alt={projectName}
       />
       <div className={styles.projectname}>
-        <h4 className=" mt-5 mt-sm-3 mt-md-5 mb-3 fw-bold">{projectName}</h4>
+        <h3 className=" mt-5 mt-sm-3 mt-md-5 mb-3 fw-bold">{projectName}</h3>
         <p className="fs-6 fw-light mb-3 p-1">{Description}</p>
         <a
           href={webUrl}
