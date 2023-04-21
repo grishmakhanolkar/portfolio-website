@@ -25,7 +25,7 @@ function About() {
             alt="Frontend developer"
           />
           <div className="card-body d-flex justify-content-center flex-column p-3">
-            <h3 className="p-4">Frontend Developer</h3>
+            <h2 className="p-4">Frontend Developer</h2>
             <p className="fs-5 p-2">
               I like to code things from scratch, and enjoy bringing ideas to
               life in the browser.
