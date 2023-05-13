@@ -24,7 +24,7 @@ function ProjectCard({ project }) {
           type="button"
           className="btn btn-outline-secondary ms-auto rounded-pill"
         >
-          Visit Website
+          Click to visit
         </a>
       </div>
     </div>

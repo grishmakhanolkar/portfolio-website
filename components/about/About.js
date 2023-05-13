@@ -11,9 +11,9 @@ function About() {
         </h1>
         <p className="fs-5 fw-light mb-5">
           I am a Web Developer. I build apps with a clean UI and a focus on the
-          UX. My current tech stack is React, Next JS, Bootstrap and Material
-          UI. I am open to freelancing and collaborating with others on
-          interesting projects.
+          UX. My current tech stack is React, Next JS, Vue JS, Bootstrap,
+          Tailwind and Material UI. I am open to freelancing and collaborating
+          with others on interesting projects.
         </p>
       </div>
       <div className={styles.aboutCard}>
@@ -36,9 +36,13 @@ function About() {
               <dt className="p-2">Libraries I have used:</dt>
               <dd className="p-2">SCSS, ReactJS</dd>
               <dt className="p-2">Frameworks I have tried:</dt>
-              <dd className="p-2">NextJS, Bootstrap, Material UI</dd>
+              <dd className="p-2">
+                NextJS, VueJS, Tailwind, Bootstrap, Material UI, React Native
+              </dd>
               <dt className="p-2">Tools:</dt>
-              <dd className="p-2">Github, Netlify, VSCode, Postman</dd>
+              <dd className="p-2">
+                Github, Vercel, Netlify, VSCode, Postman, Firebase, Expo Go
+              </dd>
             </dl>
           </div>
         </div>
