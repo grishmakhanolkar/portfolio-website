@@ -55,6 +55,7 @@ function ContactPage() {
                   type="text"
                   className="form-control"
                   id="Name"
+                  required
                   name="userName"
                   value={userName}
                   onChange={handleChange}
@@ -66,6 +67,7 @@ function ContactPage() {
                 </label>
                 <input
                   type="email"
+                  required
                   className="form-control"
                   id="InputEmail1"
                   name="email"
@@ -84,6 +86,7 @@ function ContactPage() {
                 <input
                   style={{ height: '250px' }}
                   type="text"
+                  required
                   className="form-control"
                   id="Message"
                   name="message"

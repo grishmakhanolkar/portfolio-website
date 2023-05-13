@@ -12,6 +12,17 @@ export default function Home({ blogs, gotBlogs }) {
   if (!gotBlogs) {
     blogs = [
       {
+        title: 'Web Performance - from 27 to 99',
+        link: 'https://medium.com/p/32441d24a326',
+        categories: [
+          'web performance',
+          'Next.JS',
+          'google-oauth',
+          'authentication',
+          'firebase',
+        ],
+      },
+      {
         title: 'Firebase for Login and Logout— Part 1',
         link: 'https://medium.com/p/c99d0022a467',
         categories: [
@@ -21,11 +32,6 @@ export default function Home({ blogs, gotBlogs }) {
           'authentication',
           'firebase',
         ],
-      },
-      {
-        title: 'React Router v6',
-        link: 'https://medium.com/p/5736a7718335',
-        categories: ['react', 'react-router-v6'],
       },
       {
         title: 'Navigating to Nested React Components',
