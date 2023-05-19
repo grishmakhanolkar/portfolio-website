@@ -20,6 +20,7 @@ function Project() {
           ))}
         </div>
       </div>
+      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
       <a
         href="/"
         type="button"
