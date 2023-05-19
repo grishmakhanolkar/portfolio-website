@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Logo from '../../Images/logo.png';
 import Image from 'next/image';
 import Avatar from '../../Images/Avatar.png';
