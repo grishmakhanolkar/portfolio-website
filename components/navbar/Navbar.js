@@ -1,11 +1,13 @@
 import Logo from '../../Images/logo.png';
 import Image from 'next/image';
 
-function Navbar() {
+function Navbar(props) {
+  const { setIsModalOpen } = props;
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-transparent pt-5 pb-5">
+      <nav className="navbar sticky-top navbar-expand-lg bg-body">
         <div className="container-fluid mx-3 mx-sm-5">
+          {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
           <a className="navbar-brand" href="/">
             <Image width={50} height={50} src={Logo} alt="Logo" />
           </a>
@@ -28,7 +30,7 @@ function Navbar() {
                   aria-current="page"
                   href="#project"
                 >
-                  Projects
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item mx-3">
@@ -42,12 +44,21 @@ function Navbar() {
               </li>
               <li className="nav-item mx-3">
                 <a
-                  href="/contactpage"
+                  className="nav-link link-dark"
+                  aria-current="page"
+                  href="#testimonial"
+                >
+                  Testimonials
+                </a>
+              </li>
+              <li className="nav-item mx-3">
+                <button
+                  onClick={() => setIsModalOpen(true)}
                   type="button"
-                  className="btn btn-outline-primary ms-auto rounded-pill"
+                  className="btn btn-outline-primary ms-auto rounded-pill fw-bold"
                 >
                   Say Hello
-                </a>
+                </button>
               </li>
             </ul>
           </div>

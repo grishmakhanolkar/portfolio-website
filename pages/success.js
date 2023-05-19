@@ -19,6 +19,7 @@ function Success() {
       <p className="fs-5 fw-light mb-5 pb-3">
         I will be in touch with you shortly.
       </p>
+      {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
       <a
         href="/"
         type="button"

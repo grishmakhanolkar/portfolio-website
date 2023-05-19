@@ -16,14 +16,16 @@ const projectDetails = [
   {
     id: 1,
     projectName: 'Bhasha website',
-    Description: 'Language learning website for a client',
+    Description:
+      'Website built from scratch for a client using Next.js and Bootstrap, deployed on AWS Amplify. Helped implement CRM and improve SEO',
     imgSrc: Bhasha,
     webUrl: 'https://bhasha.io/online-kannada-classes',
   },
   {
     id: 2,
     projectName: 'Yathzee',
-    Description: 'Android App - Game of Dice.',
+    Description:
+      'React Native Android Game App built with Expo-Go. Published on Google Playstore',
     imgSrc: Yathzee,
     webUrl:
       'https://play.google.com/store/apps/details?id=com.yathzee.YathzeeGame',
@@ -31,7 +33,8 @@ const projectDetails = [
   {
     id: 3,
     projectName: 'Application Analysis',
-    Description: 'Video showing analysis website for a client',
+    Description:
+      'Web page built for a client using Vue.js and Chart.js to showcase daily reports and analysis',
     imgSrc: ApplicationAnalysis,
     webUrl: 'https://bit.ly/3M3HxzJ',
   },

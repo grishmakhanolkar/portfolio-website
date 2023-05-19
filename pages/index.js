@@ -5,8 +5,11 @@ import About from '../components/about/About.js';
 import ProjectList from '../components/projectList/ProjectList';
 import Blogs from '../components/blogs/Blogs.js';
 import Contact from '../components/contact/Contact';
+import ModalPopup from '../components/modal/modal';
+import Testimonial from '../components/testimonials/testimonials';
 import Footer from '../components/footer/Footer';
 import Parser from 'rss-parser';
+import { useState } from 'react';
 
 export default function Home({ blogs, gotBlogs }) {
   if (!gotBlogs) {
@@ -46,6 +49,8 @@ export default function Home({ blogs, gotBlogs }) {
       },
     ];
   }
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div>
       <Head>
@@ -54,13 +59,16 @@ export default function Home({ blogs, gotBlogs }) {
         <link rel="icon" href="/logo.png" />
       </Head>
       <div>
-        <Navbar />
-        <LandingPage />
+        <Navbar setIsModalOpen={setIsModalOpen} />
+        <LandingPage setIsModalOpen={setIsModalOpen} />
         <About />
         <ProjectList />
-        <Contact />
+        <Contact setIsModalOpen={setIsModalOpen} />
         <Blogs blogs={blogs} />
-        <Footer />
+        <Testimonial />
+        <Footer setIsModalOpen={setIsModalOpen} />
+
+        <ModalPopup isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
       </div>
     </div>
   );
