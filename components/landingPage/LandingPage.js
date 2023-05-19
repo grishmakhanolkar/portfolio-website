@@ -17,7 +17,7 @@ function LandingPage(props) {
             I design and code beautifully simple things, and I love what I do.
           </p>
           <p className="fs-5 fw-light mb-5 pb-3">
-            I can help you Design, Biuld, Deploy and Maintain your web presence.
+            I can help you Design, Build, Deploy and Maintain your web presence.
           </p>
           <Image
             width={200}
