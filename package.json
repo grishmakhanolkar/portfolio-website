@@ -15,6 +15,7 @@
     "bootstrap-icons": "^1.10.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "googleapis": "^135.0.0",
     "next": "12.2.5",
     "prettier": "^2.7.1",
     "react": "18.2.0",
@@ -40,8 +41,8 @@
     "jest-environment-jsdom": "^29.3.1",
     "typescript": "^4.8.4"
   },
-  "engines" : { 
-    "npm" : ">=8.0.0 <9.0.0",
-    "node" : ">=16.0.0 <17.0.0"
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
   }
 }
