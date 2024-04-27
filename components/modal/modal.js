@@ -34,7 +34,8 @@ export default function ModalPopup(props) {
         },
         body: JSON.stringify(formFields),
       });
-      if (response.status === 200) {
+
+      if (response.status === 201) {
         resetFormFields();
         setIsSubmit(() => false);
         setIsSent(() => true);
